@@ -1,0 +1,359 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+#background{
+    filter: brightness(20%);
+}
+#container{
+    border:1px solid lightblue;
+    font-family:arial,sans-serif;
+margin:15px 15px 15px 15px;
+}
+hr{
+    color: aqua;
+}
+#title{
+    height:50px;
+    background-color: white;
+    font-size: 30px;
+    padding-top:30px;
+}
+#titlebar{
+    color:#424242;
+    font-size: 40px;
+margin-left:80px;
+}
+#list{
+    color: #00A5EC;
+margin-right: 3px;
+font-size: 40px;
+
+}
+#container2{
+    background-color: #d0f6f7;
+padding-bottom: 100px;
+}
+
+#addsymbol{
+    margin-right:15px;
+}
+#task{
+    margin-right: 60px;
+    margin-top: 10px;
+    color: black;
+    font-size: 20px;
+    float: right;
+}
+#container3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin: 130px;
+}
+.cardboxes{
+    border: 0px solid lightskyblue;
+    border-radius: 10px;
+    width: 350px;
+    height: 350px;
+    margin: 15px;
+    box-shadow: 4px 4px 4px gray, -4px -4px 4px grey;
+    background-color: white;
+}
+.cardboxes:hover {
+    box-shadow: 6px 6px 6px gray, -6px -6px 6px grey;
+}
+.title{
+    font-size: 2opx;
+    margin:30px;
+    color: #00A5EC;
+}
+.title a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.title a:hover{
+    text-decoration: none;
+    color:
+}
+.box{
+    padding:28px;
+}
+#check{
+    height: 30px;
+    width: 30px;
+}
+input[type=checkbox]{
+   accent-color: #7B7B7B29;
+}
+.insidebox{
+    font-size: 20px;
+    margin-left: 15px;
+    position: relative;
+    bottom: 5px;
+    color: #6f6f6f;
+    text-decoration: line-through #6f6f6f;
+}
+.insidetext{
+    font-size: 20px;
+    margin-left: 15px;
+    position: relative;
+    bottom: 5px;
+    color: #424242;
+}
+#back{
+display: flex;
+height: 45px;
+padding: 45px;
+}
+#tofirstpage{
+    position: relative;
+    left: 450px;
+}
+#plus1{
+    margin-right: 10px;
+    position: relative;
+    left: 650px;
+}
+#task1{
+    position: relative;
+    left: 650px;
+    font-size: 20px;
+    color: #424242;
+}
+#addtask{
+    position: relative;
+    top: 10px;
+}
+#card3{
+    display: flex;
+    margin: 135px;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#pop{
+   
+}
+ #cross{
+    height:50px;
+ }
+ #popadd{
+    float: left;
+    margin-left: 20px;
+}
+ #popcross{
+    float: right;
+    margin-top: 1em;
+    margin-right: 1em;
+ }
+ #poptext{
+    height: 20px;
+    width: 450px;
+    margin-top: 40px;
+ }
+
+ .btn{
+    border-radius: 4px;
+    opacity: 1;
+    float: right;
+    border: 0px;
+    height: 25px;
+    width: 100px;
+    margin-top: 10px;
+    margin-right: 40px;
+    
+    color: #FFFFFF;
+    background-color: #00A5EC;
+ }
+ .btn:hover{
+    color: whitesmoke;
+    background-color: blueviolet;
+   
+ }
+ .cards{
+    display: flex;
+    flex-wrap: wrap;
+
+ }
+ .cards1{
+    top: 320px;
+left: 139px;
+width: 352px;
+height: 300px;
+
+background-color:#FFFFFF;
+margin:40px;
+margin-left: 80px;
+border-radius: 15px;
+box-shadow:2px 2px 2px grey,-2px -2px 2px grey ;
+ }
+ .cards1:hover{
+    box-shadow: 4px 4px 4px grey , -4px -4px 4px grey;
+ }
+ .cardshead{
+    margin-top: 100px;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 25px;
+    color: #00A5EC;
+ }
+ .blurr{
+    filter: brightness(30%);
+ }
+ .popup{
+    height: 250px;
+    width: 500px;
+    border: 0px solid blue;
+    border-radius: 15px;
+    background-color: white;
+    color: #424242;
+    box-shadow: 2px 2px 2px black, -2px -2px -2px black;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+ }
+.fa{
+    font-size: 30px;
+    float: right;
+    padding: 15px;
+}
+.textarea{
+    width:90%;
+    height:80px;
+    padding-left: 20px;
+    background-color: #F7F7F7;
+    border: 1px solid #EDEDED;
+border-radius: 4px;
+opacity: 1;
+}
+.backbtn{
+    float: left;
+  margin-top: -18px;
+   
+}
+.faplus{
+    float: right;
+    margin-right: 30px;
+}
+#plus{
+    height:40px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+#backs{
+   
+    margin-top: 100px;
+    color: black;
+    font-size: 20px;
+   margin-left:5px;
+}
+.new{
+    text-decoration: none;
+   
+}
+@media only screen and ( max-width: 768px ) {
+    body {
+        margin: 0%;
+        padding: 0%;
+    }
+    #background{
+        
+            width: 100%;
+            margin: 0%;
+        
+    }
+    #title{
+        text-align: center;
+        margin: auto;
+    }
+    #titlebar{
+        margin: 0%;
+    }
+    #task{
+         display: none;
+    }
+    #addsymbol{
+        transition: 1s;
+        margin: auto;  
+    }
+    #container3{
+        width: 100%;
+        flex-direction: column;
+        margin: 0%; 
+    }
+    .cardboxes{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 1em;
+    }
+    .popup-width{
+        width: 80%;
+        margin: auto;
+    }
+    #popup{
+        width: 100%;
+        left: 0%;
+        top: 35%;  
+    }
+    #task1{display: none;}
+#back{
+    justify-content: space-around;
+}
+#tofirstpage{
+    position: static;
+}
+#plus1{
+    position: static;
+}
+@media only screen and ( max-width: 1024px ) and (min-width:769px) {
+    body {
+        margin: 0%;
+        padding: 0%;
+    }
+    #background{
+        
+        width: 100%;
+        margin: 0%;
+    
+}
+#title{
+    text-align: center;
+    margin: auto;
+}
+#titlebar{
+    margin: 0%;
+}
+ #task{
+         display: none;
+    }
+    #addsymbol{
+        transition: 1s;
+        margin: auto;  
+    }
+    #container3{
+        width: 100%;
+        flex-direction: column;
+        margin: 0%; 
+    }
+    .cardboxes{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 1em;
+    }
+  
+    
+    #popup{
+        width: 100%;
+        left: 0%;
+        top: 35%;  
+    }
+    #task1{display: none;}
+#back{
+    justify-content: space-around;
+}
+#tofirstpage{
+    position: static;
+}
+#plus1{
+    position: static;}
